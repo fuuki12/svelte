@@ -117,6 +117,7 @@ With runes, we can use `$effect.pre`, which behaves the same as `$effect` but ru
 	---let updatingMessages = false;---
 	let theme = +++$state('dark')+++;
 	let messages = +++$state([])+++;
+	let toggleValue = +++$state(false)+++;
 
 	let viewport;
 
